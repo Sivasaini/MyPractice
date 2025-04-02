@@ -22,7 +22,7 @@ public class SalaryCalculation {
         int emmaStoredSalary = salaryMap.get("Emma");
 
         // Step 3: Calculate bonus (Using type casting from float to double)
-        float performanceBonus = 2600.75f;
+        float performanceBonus = 2700.75f;
         double johnFinalSalary = johnStoredSalary + (double) performanceBonus;  // Type casting float -> double
         double emmaFinalSalary = emmaStoredSalary + (double) performanceBonus;
 
